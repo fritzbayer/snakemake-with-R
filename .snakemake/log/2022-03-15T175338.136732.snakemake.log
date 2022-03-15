@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+test_rule        1              1              1
+total            1              1              1
+
+Select jobs to execute...
+
+[Tue Mar 15 17:53:38 2022]
+rule test_rule:
+    input: data/testData.rds
+    output: out/testOutput.txt
+    jobid: 0
+    resources: tmpdir=/var/folders/12/8nyhyysj71726krwt80366q80000gr/T
+
+[Tue Mar 15 17:53:39 2022]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/log/2022-03-15T175338.136732.snakemake.log

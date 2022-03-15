@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+test_rule        1              1              1
+total            1              1              1
+
+Select jobs to execute...
+
+[Tue Mar 15 14:40:15 2022]
+rule test_rule:
+    input: scr/data/testDataChar.rds
+    output: out/data/out.rds
+    jobid: 0
+    resources: tmpdir=/var/folders/12/8nyhyysj71726krwt80366q80000gr/T
+
+[Tue Mar 15 14:40:15 2022]
+Error in rule test_rule:
+    jobid: 0
+    output: out/data/out.rds
+    shell:
+        Rscript src/data-processing/test-script.R             --data scr/data/testDataChar.rds             --out out/data/out.rds
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/log/2022-03-15T144014.937435.snakemake.log

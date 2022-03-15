@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+test_rule        1              1              1
+total            1              1              1
+
+Select jobs to execute...
+
+[Tue Mar 15 15:56:53 2022]
+rule test_rule:
+    input: data/testDataChar.rds
+    output: out/testOutput.rds
+    jobid: 0
+    resources: tmpdir=/var/folders/12/8nyhyysj71726krwt80366q80000gr/T
+
+[Tue Mar 15 15:56:54 2022]
+Error in rule test_rule:
+    jobid: 0
+    output: out/testOutput.rds
+
+RuleException:
+CalledProcessError in line 20 of /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/Snakefile:
+Command 'set -euo pipefail;  Rscript --vanilla /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/scripts/tmpbujw943_.test-script.R' returned non-zero exit status 1.
+  File "/Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/Snakefile", line 20, in __rule_test_rule
+  File "/Users/frbayer/mambaforge/envs/snakemake/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/log/2022-03-15T155652.795887.snakemake.log

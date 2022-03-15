@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+test_rule2        1              1              1
+total             1              1              1
+
+Select jobs to execute...
+
+[Tue Mar 15 14:52:58 2022]
+rule test_rule2:
+    input: scr/data/testDataChar.rds
+    output: out/data/out.rds
+    jobid: 0
+    resources: tmpdir=/var/folders/12/8nyhyysj71726krwt80366q80000gr/T
+
+[Tue Mar 15 14:52:58 2022]
+Error in rule test_rule2:
+    jobid: 0
+    output: out/data/out.rds
+
+RuleException:
+WorkflowError in line 28 of /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile:
+Failed to open source file /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/src/data-processing/test-script.R
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/src/data-processing/test-script.R'
+  File "/Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile", line 28, in __rule_test_rule2
+  File "/Users/frbayer/mambaforge/envs/snakemake/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/log/2022-03-15T145258.174263.snakemake.log
