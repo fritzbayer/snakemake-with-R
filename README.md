@@ -5,5 +5,7 @@ Use this template as follows:
 
 Step 1: Activate conda and snakemake
 
-`conda activate base
+```{r eval=FALSE}
+conda activate base
 conda activate snakemake`
+```
