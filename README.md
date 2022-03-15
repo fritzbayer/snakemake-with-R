@@ -1,6 +1,4 @@
-# Easy template snakemake-with-R
-
-Easy snakemake template for running R scripts.
+# Easy template for running snakemake with R
 
 The following terminal commands can be used to execute this demo script. 
 
