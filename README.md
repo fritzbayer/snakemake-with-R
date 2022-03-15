@@ -35,3 +35,6 @@ or
 $ snakemake --cores 1 test_rule
 ```
 
+The output is a simple multplication of the imput vector. 
+
+From here, you can make your workflow arbitrarily complex - enjoy.
