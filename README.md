@@ -24,7 +24,7 @@ First, you can perform a dry run of Snakemake with:
 $ snakemake -n
 ```
 
-Now run the R scripts in the snakemake workflow
+Now run the R scripts in the snakemake rules
 
 ```{r eval=FALSE}
 $ snakemake --cores 1
