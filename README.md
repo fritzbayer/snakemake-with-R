@@ -1,5 +1,6 @@
-# template snakemake-with-R
- Snakemake template for running R scripts
+# Easy template snakemake-with-R
+
+Easy snakemake template for running R scripts.
 
 The following terminal commands can be used to execute this demo script. 
 
@@ -16,7 +17,9 @@ Step 2: Download the snakemake-with-R folder and change directory accordingly
 $ cd /path/to/snakemake-with-R
 ```
 
-Step 3: Execute R scripts in the snakemake workflow
+The folder 'snakemake-with-R' contains the 'Snakefile', which contains the snakemake rules from which we can execute our R scripts. The folder 'scr' contains two R scripts that can be executed.
+
+Step 3: Execute R scripts in the snakemake rules
 
 First, you can perform a dry run of Snakemake with:
 
