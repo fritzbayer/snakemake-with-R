@@ -1,6 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 12 of /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile:
-Missing input files for rule test_rule:
-    output: out/data/out.rds
-    affected files:
-        /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/src/data-processing/test-script.R

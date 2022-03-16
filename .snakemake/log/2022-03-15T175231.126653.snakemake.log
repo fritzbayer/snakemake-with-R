@@ -1,9 +1,0 @@
-Building DAG of jobs...
-The code used to generate one or several output files has changed:
-    To inspect which output files have changes, run 'snakemake --list-code-changes'.
-    To trigger a re-run, use 'snakemake -R $(snakemake --list-code-changes)'.
-Nothing to be done (all requested files are present and up to date).
-The code used to generate one or several output files has changed:
-    To inspect which output files have changes, run 'snakemake --list-code-changes'.
-    To trigger a re-run, use 'snakemake -R $(snakemake --list-code-changes)'.
-Complete log: /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/.snakemake/log/2022-03-15T175231.126653.snakemake.log

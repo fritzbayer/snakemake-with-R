@@ -1,3 +1,0 @@
-AttributeError in line 21 of /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile:
-'builtin_function_or_method' object has no attribute 'script'
-  File "/Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile", line 21, in <module>

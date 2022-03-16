@@ -1,2 +1,0 @@
-SyntaxError in line 10 of /Users/frbayer/Documents/phd_main/projects/graph-based-clustering/snakemake/workflow/Snakefile:
-Command must be given as string after the shell keyword. (Snakefile, line 10)
