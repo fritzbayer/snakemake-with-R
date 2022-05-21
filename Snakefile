@@ -8,7 +8,6 @@ rule simple_test_rule:
     script:
         'scr/simple-test-script.R'
 
-
 rule test_rule:
     input:
         data= 'data/testData.rds',
