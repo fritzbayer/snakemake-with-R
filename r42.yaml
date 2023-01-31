@@ -1,0 +1,7 @@
+name: r42
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - r-base =4.2
+  - r-argparse
